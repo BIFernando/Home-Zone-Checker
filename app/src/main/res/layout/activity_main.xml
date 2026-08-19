@@ -8,11 +8,12 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:id="@+id/tv_hello"
+        android:id="@+id/statusText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toTopOf="@id/btn_check_location"
+        android:text="Status: Unknown"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/distanceText"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
