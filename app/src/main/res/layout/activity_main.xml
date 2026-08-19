@@ -8,6 +8,11 @@
     tools:context=".MainActivity">
 
     <TextView
+        android:id="@+id/locationDisplay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Press the button to check location"
+        app:layout_constraintBottom_toTopOf="@+id/checkLocationButton"
         android:id="@+id/statusText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
