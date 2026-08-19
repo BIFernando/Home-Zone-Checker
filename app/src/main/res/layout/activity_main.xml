@@ -13,20 +13,25 @@
         android:layout_height="wrap_content"
         android:text="Press the button to check location"
         app:layout_constraintBottom_toTopOf="@+id/checkLocationButton"
+        android:id="@+id/statusText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Status: Unknown"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/distanceText"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_chainStyle="packed" />
 
     <Button
-        android:id="@+id/checkLocationButton"
+        android:id="@+id/btn_check_location"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:text="Check Location"
+        android:text="Check My Location"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/locationDisplay" />
+        app:layout_constraintTop_toBottomOf="@id/tv_hello" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
