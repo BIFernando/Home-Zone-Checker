@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Campus Zone Checker</string>
+    <string name="title_text">Campus Zone Checker</string>
+    <string name="check_location">Check My Location</string>
+    <string name="status_unknown">Status: Unknown</string>
+    <string name="distance_default">Distance: — m</string>
+</resources>
